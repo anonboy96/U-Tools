@@ -1,7 +1,7 @@
 {
   "name": "pdf-editor",
   "version": "1.0.0",
-  "description": "PDF Editor ",
+  "description": "PDF Editor",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,6 +9,9 @@
   },
   "author": "Umang Patel",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",
     "axios": "^1.3.4",
@@ -19,11 +22,11 @@
     "excel4node": "^1.8.2",
     "express": "^4.18.2",
     "imagemin": "^8.0.1",
-    "jimp": "^0.22.7",
+    "jimp": "^0.22.10",
     "jszip": "^3.10.1",
     "libreoffice-convert": "^1.4.1",
     "mammoth": "^1.6.0",
-    "multer": "^1.4.5-lts.1",
+    "multer": "^2.0.1",
     "officegen": "^0.6.5",
     "pdf-image": "^2.0.0",
     "pdf-img-convert-web": "^1.2.4",
